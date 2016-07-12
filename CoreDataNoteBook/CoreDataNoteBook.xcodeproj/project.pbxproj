@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6ECA181CBA661B00EBB270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA171CBA661B00EBB270 /* main.m */; };
+		EC6ECA1B1CBA661B00EBB270 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA1A1CBA661B00EBB270 /* AppDelegate.m */; };
+		EC6ECA1E1CBA661B00EBB270 /* CoreDataNoteBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA1C1CBA661B00EBB270 /* CoreDataNoteBook.xcdatamodeld */; };
+		EC6ECA201CBA661B00EBB270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6ECA1F1CBA661B00EBB270 /* Assets.xcassets */; };
+		EC6ECA231CBA661B00EBB270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6ECA211CBA661B00EBB270 /* LaunchScreen.storyboard */; };
+		EC6ECA2E1CBA661B00EBB270 /* CoreDataNoteBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA2D1CBA661B00EBB270 /* CoreDataNoteBookTests.m */; };
+		EC6ECA391CBA661B00EBB270 /* CoreDataNoteBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA381CBA661B00EBB270 /* CoreDataNoteBookUITests.m */; };
+		EC6ECA481CBA662400EBB270 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA471CBA662400EBB270 /* RootViewController.m */; };
+		EC6ECA4B1CBA669900EBB270 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA4A1CBA669900EBB270 /* CoreDataManager.m */; };
+		EC6ECA4E1CBA670300EBB270 /* NoteBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA4D1CBA670300EBB270 /* NoteBookView.m */; };
+		EC6ECA531CBA67CF00EBB270 /* NoteBook+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA501CBA67CF00EBB270 /* NoteBook+CoreDataProperties.m */; };
+		EC6ECA541CBA67CF00EBB270 /* NoteBook.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA521CBA67CF00EBB270 /* NoteBook.m */; };
+		EC6ECA571CBA68FA00EBB270 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA561CBA68FA00EBB270 /* DetailViewController.m */; };
+		EC6ECA5A1CBA6C7E00EBB270 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6ECA591CBA6C7E00EBB270 /* ContentViewController.m */; };
+		ECA87E891CBB413D0055170B /* RootCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA87E881CBB413D0055170B /* RootCollectionViewCell.m */; };
+		ECA87E8B1CBB48BF0055170B /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA87E8A1CBB48BF0055170B /* select.png */; };
+		ECA87E8D1CBB49F90055170B /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = ECA87E8C1CBB49F90055170B /* cancel.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6ECA2A1CBA661B00EBB270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6ECA0B1CBA661B00EBB270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6ECA121CBA661B00EBB270;
+			remoteInfo = CoreDataNoteBook;
+		};
+		EC6ECA351CBA661B00EBB270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6ECA0B1CBA661B00EBB270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6ECA121CBA661B00EBB270;
+			remoteInfo = CoreDataNoteBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC6ECA131CBA661B00EBB270 /* CoreDataNoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataNoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6ECA171CBA661B00EBB270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6ECA191CBA661B00EBB270 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6ECA1A1CBA661B00EBB270 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6ECA1D1CBA661B00EBB270 /* CoreDataNoteBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataNoteBook.xcdatamodel; sourceTree = "<group>"; };
+		EC6ECA1F1CBA661B00EBB270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6ECA221CBA661B00EBB270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6ECA241CBA661B00EBB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6ECA291CBA661B00EBB270 /* CoreDataNoteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataNoteBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6ECA2D1CBA661B00EBB270 /* CoreDataNoteBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataNoteBookTests.m; sourceTree = "<group>"; };
+		EC6ECA2F1CBA661B00EBB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6ECA341CBA661B00EBB270 /* CoreDataNoteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataNoteBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6ECA381CBA661B00EBB270 /* CoreDataNoteBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataNoteBookUITests.m; sourceTree = "<group>"; };
+		EC6ECA3A1CBA661B00EBB270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6ECA461CBA662400EBB270 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EC6ECA471CBA662400EBB270 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EC6ECA491CBA669900EBB270 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		EC6ECA4A1CBA669900EBB270 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		EC6ECA4C1CBA670300EBB270 /* NoteBookView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBookView.h; sourceTree = "<group>"; };
+		EC6ECA4D1CBA670300EBB270 /* NoteBookView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBookView.m; sourceTree = "<group>"; };
+		EC6ECA4F1CBA67CF00EBB270 /* NoteBook+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NoteBook+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EC6ECA501CBA67CF00EBB270 /* NoteBook+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NoteBook+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EC6ECA511CBA67CF00EBB270 /* NoteBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBook.h; sourceTree = "<group>"; };
+		EC6ECA521CBA67CF00EBB270 /* NoteBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBook.m; sourceTree = "<group>"; };
+		EC6ECA551CBA68FA00EBB270 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		EC6ECA561CBA68FA00EBB270 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		EC6ECA581CBA6C7E00EBB270 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		EC6ECA591CBA6C7E00EBB270 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		ECA87E871CBB413D0055170B /* RootCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootCollectionViewCell.h; sourceTree = "<group>"; };
+		ECA87E881CBB413D0055170B /* RootCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootCollectionViewCell.m; sourceTree = "<group>"; };
+		ECA87E8A1CBB48BF0055170B /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		ECA87E8C1CBB49F90055170B /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6ECA101CBA661B00EBB270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6ECA261CBA661B00EBB270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6ECA311CBA661B00EBB270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6ECA0A1CBA661B00EBB270 = {
+			isa = PBXGroup;
+			children = (
+				EC6ECA4F1CBA67CF00EBB270 /* NoteBook+CoreDataProperties.h */,
+				EC6ECA501CBA67CF00EBB270 /* NoteBook+CoreDataProperties.m */,
+				EC6ECA511CBA67CF00EBB270 /* NoteBook.h */,
+				EC6ECA521CBA67CF00EBB270 /* NoteBook.m */,
+				EC6ECA151CBA661B00EBB270 /* CoreDataNoteBook */,
+				EC6ECA2C1CBA661B00EBB270 /* CoreDataNoteBookTests */,
+				EC6ECA371CBA661B00EBB270 /* CoreDataNoteBookUITests */,
+				EC6ECA141CBA661B00EBB270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6ECA141CBA661B00EBB270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6ECA131CBA661B00EBB270 /* CoreDataNoteBook.app */,
+				EC6ECA291CBA661B00EBB270 /* CoreDataNoteBookTests.xctest */,
+				EC6ECA341CBA661B00EBB270 /* CoreDataNoteBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6ECA151CBA661B00EBB270 /* CoreDataNoteBook */ = {
+			isa = PBXGroup;
+			children = (
+				EC6ECA191CBA661B00EBB270 /* AppDelegate.h */,
+				EC6ECA1A1CBA661B00EBB270 /* AppDelegate.m */,
+				EC6ECA461CBA662400EBB270 /* RootViewController.h */,
+				EC6ECA471CBA662400EBB270 /* RootViewController.m */,
+				ECA87E871CBB413D0055170B /* RootCollectionViewCell.h */,
+				ECA87E881CBB413D0055170B /* RootCollectionViewCell.m */,
+				EC6ECA551CBA68FA00EBB270 /* DetailViewController.h */,
+				EC6ECA561CBA68FA00EBB270 /* DetailViewController.m */,
+				EC6ECA581CBA6C7E00EBB270 /* ContentViewController.h */,
+				EC6ECA591CBA6C7E00EBB270 /* ContentViewController.m */,
+				EC6ECA4C1CBA670300EBB270 /* NoteBookView.h */,
+				EC6ECA4D1CBA670300EBB270 /* NoteBookView.m */,
+				EC6ECA491CBA669900EBB270 /* CoreDataManager.h */,
+				EC6ECA4A1CBA669900EBB270 /* CoreDataManager.m */,
+				ECA87E8A1CBB48BF0055170B /* select.png */,
+				ECA87E8C1CBB49F90055170B /* cancel.png */,
+				EC6ECA1F1CBA661B00EBB270 /* Assets.xcassets */,
+				EC6ECA211CBA661B00EBB270 /* LaunchScreen.storyboard */,
+				EC6ECA241CBA661B00EBB270 /* Info.plist */,
+				EC6ECA1C1CBA661B00EBB270 /* CoreDataNoteBook.xcdatamodeld */,
+				EC6ECA161CBA661B00EBB270 /* Supporting Files */,
+			);
+			path = CoreDataNoteBook;
+			sourceTree = "<group>";
+		};
+		EC6ECA161CBA661B00EBB270 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6ECA171CBA661B00EBB270 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6ECA2C1CBA661B00EBB270 /* CoreDataNoteBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6ECA2D1CBA661B00EBB270 /* CoreDataNoteBookTests.m */,
+				EC6ECA2F1CBA661B00EBB270 /* Info.plist */,
+			);
+			path = CoreDataNoteBookTests;
+			sourceTree = "<group>";
+		};
+		EC6ECA371CBA661B00EBB270 /* CoreDataNoteBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6ECA381CBA661B00EBB270 /* CoreDataNoteBookUITests.m */,
+				EC6ECA3A1CBA661B00EBB270 /* Info.plist */,
+			);
+			path = CoreDataNoteBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6ECA121CBA661B00EBB270 /* CoreDataNoteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6ECA3D1CBA661B00EBB270 /* Build configuration list for PBXNativeTarget "CoreDataNoteBook" */;
+			buildPhases = (
+				EC6ECA0F1CBA661B00EBB270 /* Sources */,
+				EC6ECA101CBA661B00EBB270 /* Frameworks */,
+				EC6ECA111CBA661B00EBB270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataNoteBook;
+			productName = CoreDataNoteBook;
+			productReference = EC6ECA131CBA661B00EBB270 /* CoreDataNoteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6ECA281CBA661B00EBB270 /* CoreDataNoteBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6ECA401CBA661B00EBB270 /* Build configuration list for PBXNativeTarget "CoreDataNoteBookTests" */;
+			buildPhases = (
+				EC6ECA251CBA661B00EBB270 /* Sources */,
+				EC6ECA261CBA661B00EBB270 /* Frameworks */,
+				EC6ECA271CBA661B00EBB270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6ECA2B1CBA661B00EBB270 /* PBXTargetDependency */,
+			);
+			name = CoreDataNoteBookTests;
+			productName = CoreDataNoteBookTests;
+			productReference = EC6ECA291CBA661B00EBB270 /* CoreDataNoteBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC6ECA331CBA661B00EBB270 /* CoreDataNoteBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6ECA431CBA661B00EBB270 /* Build configuration list for PBXNativeTarget "CoreDataNoteBookUITests" */;
+			buildPhases = (
+				EC6ECA301CBA661B00EBB270 /* Sources */,
+				EC6ECA311CBA661B00EBB270 /* Frameworks */,
+				EC6ECA321CBA661B00EBB270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6ECA361CBA661B00EBB270 /* PBXTargetDependency */,
+			);
+			name = CoreDataNoteBookUITests;
+			productName = CoreDataNoteBookUITests;
+			productReference = EC6ECA341CBA661B00EBB270 /* CoreDataNoteBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6ECA0B1CBA661B00EBB270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "盛辰";
+				TargetAttributes = {
+					EC6ECA121CBA661B00EBB270 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EC6ECA281CBA661B00EBB270 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC6ECA121CBA661B00EBB270;
+					};
+					EC6ECA331CBA661B00EBB270 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC6ECA121CBA661B00EBB270;
+					};
+				};
+			};
+			buildConfigurationList = EC6ECA0E1CBA661B00EBB270 /* Build configuration list for PBXProject "CoreDataNoteBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6ECA0A1CBA661B00EBB270;
+			productRefGroup = EC6ECA141CBA661B00EBB270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6ECA121CBA661B00EBB270 /* CoreDataNoteBook */,
+				EC6ECA281CBA661B00EBB270 /* CoreDataNoteBookTests */,
+				EC6ECA331CBA661B00EBB270 /* CoreDataNoteBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6ECA111CBA661B00EBB270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA87E8B1CBB48BF0055170B /* select.png in Resources */,
+				EC6ECA201CBA661B00EBB270 /* Assets.xcassets in Resources */,
+				EC6ECA231CBA661B00EBB270 /* LaunchScreen.storyboard in Resources */,
+				ECA87E8D1CBB49F90055170B /* cancel.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6ECA271CBA661B00EBB270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6ECA321CBA661B00EBB270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6ECA0F1CBA661B00EBB270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6ECA1B1CBA661B00EBB270 /* AppDelegate.m in Sources */,
+				EC6ECA4E1CBA670300EBB270 /* NoteBookView.m in Sources */,
+				EC6ECA571CBA68FA00EBB270 /* DetailViewController.m in Sources */,
+				EC6ECA1E1CBA661B00EBB270 /* CoreDataNoteBook.xcdatamodeld in Sources */,
+				EC6ECA4B1CBA669900EBB270 /* CoreDataManager.m in Sources */,
+				ECA87E891CBB413D0055170B /* RootCollectionViewCell.m in Sources */,
+				EC6ECA481CBA662400EBB270 /* RootViewController.m in Sources */,
+				EC6ECA5A1CBA6C7E00EBB270 /* ContentViewController.m in Sources */,
+				EC6ECA531CBA67CF00EBB270 /* NoteBook+CoreDataProperties.m in Sources */,
+				EC6ECA541CBA67CF00EBB270 /* NoteBook.m in Sources */,
+				EC6ECA181CBA661B00EBB270 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6ECA251CBA661B00EBB270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6ECA2E1CBA661B00EBB270 /* CoreDataNoteBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6ECA301CBA661B00EBB270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6ECA391CBA661B00EBB270 /* CoreDataNoteBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6ECA2B1CBA661B00EBB270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6ECA121CBA661B00EBB270 /* CoreDataNoteBook */;
+			targetProxy = EC6ECA2A1CBA661B00EBB270 /* PBXContainerItemProxy */;
+		};
+		EC6ECA361CBA661B00EBB270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6ECA121CBA661B00EBB270 /* CoreDataNoteBook */;
+			targetProxy = EC6ECA351CBA661B00EBB270 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6ECA211CBA661B00EBB270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6ECA221CBA661B00EBB270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6ECA3B1CBA661B00EBB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6ECA3C1CBA661B00EBB270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6ECA3E1CBA661B00EBB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = CoreDataNoteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ShengChen.CoreDataNoteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC6ECA3F1CBA661B00EBB270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = CoreDataNoteBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ShengChen.CoreDataNoteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC6ECA411CBA661B00EBB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreDataNoteBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ShengChen.CoreDataNoteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataNoteBook.app/CoreDataNoteBook";
+			};
+			name = Debug;
+		};
+		EC6ECA421CBA661B00EBB270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreDataNoteBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ShengChen.CoreDataNoteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataNoteBook.app/CoreDataNoteBook";
+			};
+			name = Release;
+		};
+		EC6ECA441CBA661B00EBB270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreDataNoteBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ShengChen.CoreDataNoteBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreDataNoteBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC6ECA451CBA661B00EBB270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreDataNoteBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.ShengChen.CoreDataNoteBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreDataNoteBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6ECA0E1CBA661B00EBB270 /* Build configuration list for PBXProject "CoreDataNoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6ECA3B1CBA661B00EBB270 /* Debug */,
+				EC6ECA3C1CBA661B00EBB270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6ECA3D1CBA661B00EBB270 /* Build configuration list for PBXNativeTarget "CoreDataNoteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6ECA3E1CBA661B00EBB270 /* Debug */,
+				EC6ECA3F1CBA661B00EBB270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6ECA401CBA661B00EBB270 /* Build configuration list for PBXNativeTarget "CoreDataNoteBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6ECA411CBA661B00EBB270 /* Debug */,
+				EC6ECA421CBA661B00EBB270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6ECA431CBA661B00EBB270 /* Build configuration list for PBXNativeTarget "CoreDataNoteBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6ECA441CBA661B00EBB270 /* Debug */,
+				EC6ECA451CBA661B00EBB270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC6ECA1C1CBA661B00EBB270 /* CoreDataNoteBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC6ECA1D1CBA661B00EBB270 /* CoreDataNoteBook.xcdatamodel */,
+			);
+			currentVersion = EC6ECA1D1CBA661B00EBB270 /* CoreDataNoteBook.xcdatamodel */;
+			path = CoreDataNoteBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC6ECA0B1CBA661B00EBB270 /* Project object */;
+}
